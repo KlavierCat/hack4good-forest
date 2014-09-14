@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Leaflet Testing Forest</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=2'/>
+
+	<!-- site script-->
+    <script src="assets/jquery-1.11.1.min.js"></script>
+	<!-- end of site script-->
+        
+	<!--Map stylesheet and script-->
+	<link rel="stylesheet" href="assets/leaflet.css" rel='stylesheet' />
+	<!--end of Map stylesheet and script-->
+
+	<!--site stylesheet : DO NOT put this before the leaflet css since this one should overwrite that one-->
+	<link rel="stylesheet" href="assets/map.css" rel="stylesheet"/>
+	<!--end of site stylesheet-->
+
+</head>
+
+	<div id='map1' class='leaflet-container leaflet-fade-anim' tabindex='0' style="position: relative;"></div>
+
+	<div id="map2" class="leaflet-container leaflet-fade-anim" tabindex="0" style="position: relative;"></div>
+	
+	<script src="assets/leaflet.js"></script> 
+	<script type="text/javascript" src="assets/L.Map.Sync.js"></script>
+	<script type="text/javascript" src="assets/map.js"></script>
+	<!--CAN NOT be moved to the header section, because it needs the map div to be constructed first-->
+
+	<div id='next-button'><button type='button'>Next</button></div><!--change the value of var image1Url and var image2url-->
+	<div id='share'>
+		<p>You have earned x badgets! Share on <a href='http://www.facebook.com' target='_blank'>Facebook</a> <a href='http://www.twitter.com' target='_blank'>Twitter</a></p>
+	</div>
+<!--beginning of header and footer in template-->		
+<!--end of header and footer in template-->	 
+       
+</body>
+
+</html>
