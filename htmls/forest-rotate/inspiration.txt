@@ -7,3 +7,9 @@ and this one:
 http://codepen.io/ArtemGr/pen/ociAD
 
 The second one cannot be dragged, but looks like the degree rotated can be retrieved and thus stored somewhere.
+
+There is also this:
+http://pixelscommander.com/polygon/propeller/#.VBWdRfldX4s
+
+and this:
+https://github.com/godswearhats/jquery-ui-rotatable
