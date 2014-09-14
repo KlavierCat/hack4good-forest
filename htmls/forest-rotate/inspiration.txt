@@ -1,0 +1,9 @@
+Not sure how well that one can "store" the position moved and the rotation applied.
+
+There is also this one:
+http://jsfiddle.net/87jaR/
+
+and this one:
+http://codepen.io/ArtemGr/pen/ociAD
+
+The second one cannot be dragged, but looks like the degree rotated can be retrieved and thus stored somewhere.
